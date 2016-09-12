@@ -37,10 +37,22 @@ pre.highlight code,
   white-space: nowrap;
 }
 
+.post-list__post-title {
+	font-size: 1.8em;}
+
+.post-list__meta {
+	font-size: 1.2em;}
+
+.excerpt {
+	font-size: 100%;}
+
 .post-meta__tags {
-  font-size: 12px;
+  font-size: .8em;
   padding: 0 5px;
 }
+
+.footer {
+	font-size: .8em;}
 
 .footer__copyright {
     margin: 0 20px 10px;
