@@ -927,7 +927,8 @@ html {
 body {
 	font-family: "Raleway", sans-serif;
 	font-size: 1em;
-	color: #666666; }
+	color: #666666;
+	background-color: #fafafa;}
 
 ::selection {
 	background: #fae3df; }
