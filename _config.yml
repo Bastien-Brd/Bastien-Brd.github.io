@@ -1,0 +1,39 @@
+# Site settings
+title: Bastien Bourdon
+description: 'My personal website - I blog about tech, web development, data science, startup life, and thoughts on about anything from music to finance'
+url: 'https://Bastien-Brd.github.io'
+baseurl: '/blog/'
+google_analytics: 'UA-84007943-1'
+# disqus_shortname: 'your-disqus-name'
+
+author:
+  name: 'Bastien Bourdon'
+  email: bastien.bourdon@gmail.com
+  twitter_username: BastienBrd
+  facebook_username: bastien.bourdon
+  github_username:  Bastien-Brd
+  linkedin_username:  bastienbrd
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+gems: ['jekyll-paginate', 'jekyll-coffeescript']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock']

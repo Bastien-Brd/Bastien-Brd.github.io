@@ -1,0 +1,9 @@
+# System cruft
+*.py[cod]
+.DS_Store
+*~
+\#*#
+*.swp
+
+_site
+.jekyll-metadata
