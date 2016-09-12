@@ -1,6 +1,6 @@
 ---
 title:  "Work in progress: Hello world!"
-date:   2016-09-12 08:08:23
+date:   2016-09-12
 categories: [general]
 tags: [general]
 ---
