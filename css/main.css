@@ -3,6 +3,15 @@
 
 /* Modifications */
 
+body {
+	color: #666666;
+	background-color: #fafafa;}
+
+h1 {
+	font-size: 3em;
+  line-height: 1.1em;
+	letter-spacing: .03em; }
+
 pre.highlight,
 .highlight pre {
   padding: 10px;

@@ -927,8 +927,7 @@ html {
 body {
 	font-family: "Raleway", sans-serif;
 	font-size: 1em;
-	color: #666666;
-	background-color: #fafafa;}
+	color: #666666; }
 
 ::selection {
 	background: #fae3df; }
@@ -961,7 +960,8 @@ h5 {
 h1 {
 	margin-top: 0;
 	font-size: 3em;
-	letter-spacing: .03em; }
+	line-height: 1.2em;
+	letter-spacing: .05em; }
 
 h2 {
 	font-size: 2.2em; }
