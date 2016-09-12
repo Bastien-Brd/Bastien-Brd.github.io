@@ -1,8 +1,8 @@
 # Site settings
 title: Bastien Bourdon
 description: 'My personal website - I blog about tech, web development, data science, startup life, and thoughts on about anything from music to finance'
-url: 'https://Bastien-Brd.github.io'
-baseurl: '/blog/'
+url: 'https://bastien-brd.github.io'
+baseurl: '/'
 google_analytics: 'UA-84007943-1'
 # disqus_shortname: 'your-disqus-name'
 
