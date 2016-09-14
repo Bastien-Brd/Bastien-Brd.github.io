@@ -4,7 +4,9 @@ layout: null
 $(document).ready(function () {
   $('a.blog-button').click(function (e) {
     if ($('.panel-cover').hasClass('panel-cover--collapsed')) {
-      return
+      $('.panel-cover').css('width', '100%')
+      $('.panel-cover').animate({'max-width': '1600px'}, 400, swing = 'swing', function () {})
+      $('.panel-cover').removeClass('panel-cover--collapsed')
     } else {
       currentWidth = $('.panel-cover').width()
       if (currentWidth < 960) {
