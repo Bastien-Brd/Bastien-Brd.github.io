@@ -61,7 +61,9 @@ pre.highlight code,
 }
 
 .footer {
-	font-size: .8em;}
+	font-size: .8em;
+	margin: 0 7%;
+}
 
 .footer__copyright {
     margin: 0 20px 10px;
