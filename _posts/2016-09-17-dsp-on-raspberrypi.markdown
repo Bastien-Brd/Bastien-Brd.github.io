@@ -53,9 +53,10 @@ Now we can test recording and playing some audio in our python3 interpreter:
   8 dmix, ALSA (0 in, 2 out)
 * 9 default, ALSA (128 in, 128 out)
 
+>>> device = 0    # we use my USB sound card device
 >>> duration = 5  # seconds
 >>> fs = 44100    # samples by second
->>> myrecording = sd.rec(duration * fs, samplerate=fs, channels=2)
+>>> myrecording = sd.rec(duration * fs, samplerate=fs, channels=2, device=device)
 >>> myrecording.shape
 (220500, 2)
 

@@ -86,6 +86,10 @@ Then we need to make sure the audio configuration shipped with the USB card is u
 load card-specific configuration files (on request)
 ```
 
-Then simply reboot your raspberry-pi. You can now check again `aplay -l` and `arecord -l` for the order in which devices come.
+Then simply reboot your raspberry-pi. You can now check again `aplay -l` and `arecord -l` for the order in which devices come. A quick way to test the default setup is to run the `speaker-test` commandin the shell. You should hear some white noise coming out of the speaker/headphone plugged to your USB sound card. 
+
+You can record a few seconds of audio using the `arecord test.wav` command, and CTRL+C to stop recording. Listen to your test with `aplay test.wav`.
+
+You should now be setup to use your Raspberry Pi with a USB soundcard and get cracking on some cool project involving audio input and output. Personally, my first project is making a [guitar tuner using different pitch detection technics](https://github.com/Bastien-Brd/pi-tuner/). To get started withthis project, I published a post in which I explain one way to [get started with Digital Signal Processing on the Raspberry Pi 3]({% link _posts/2016-09-17-dsp-on-raspberrypi.markdown %}).
 
 ---
