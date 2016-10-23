@@ -10,7 +10,7 @@ As a music fan and guitar playing aficionado, the first ideas that came to my mi
 
 Unfortunately, the raspberry-pi does not come with a built in microphone or any audio input. And setting one up is not straight forward: to my surprise, there is a high number of posts online asking about how to setup audio input on the pi, and very little satisfying answers.
 
-My investigation led me to using a USB sound card instead of trying to use the GPIO pins (way to manual and raw). Yes it sounds a little bit less maker-y, but hey, I have goals I want to achieve here.
+My investigation led me to using a USB sound card instead of trying to use the GPIO pins (way too manual and raw). Yes it sounds a little bit less maker-y, but hey, I want to get stuff done. As far as I know, there is only one GPIO sound card availbale on the market, but there is close to no documentation and support for it.
 
 I settled for a [Sound Blaster E1](https://www.amazon.co.uk/Creative-Blaster-Portable-Headphone-Amplifier/dp/B00JFRHLQK) (30 GBP as I write this article): it was within my price range and I trusted Sound Blaster would take care of writing proper drivers compatible with most OS including linux (I run [Debian Jessie](https://www.raspberrypi.org/downloads/raspbian/)). I am sure many other and possibly cheaper options are available out there. However the trouble with USB cards is that you have to trust the maker provide sane drivers, ideally plug-and-play for any linux machines. This is the case with the Sound Blaster E1. Also: it looks pretty cool.
 
