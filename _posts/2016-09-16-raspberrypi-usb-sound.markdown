@@ -14,6 +14,8 @@ My investigation led me to using a USB sound card instead of trying to use the G
 
 I settled for a [Sound Blaster E1](https://www.amazon.co.uk/Creative-Blaster-Portable-Headphone-Amplifier/dp/B00JFRHLQK) (30 GBP as I write this article): it was within my price range and I trusted Sound Blaster would take care of writing proper drivers compatible with most OS including linux (I run [Debian Jessie](https://www.raspberrypi.org/downloads/raspbian/)). I am sure many other and possibly cheaper options are available out there. However the trouble with USB cards is that you have to trust the maker provide sane drivers, ideally plug-and-play for any linux machines. This is the case with the Sound Blaster E1. Also: it looks pretty cool.
 
+![My sound card plugged to my Raspberry Pi 3]({{ site.url }}/images/2016-09-16-raspberrypi-usb-sound/raspberry-pi-sound-card.jpg)
+
 ### Enough talk, let's get that bad boy working.
 
 Start by plugging the USB sound card into any of your raspberry-pi's USB ports, and ssh onto its command line.
