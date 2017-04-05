@@ -1,6 +1,6 @@
 # Site settings
 title: Bastien Bourdon
-description: 'My personal website - I blog about tech, web development, data science, startup life, and thoughts on about anything from music to finance'
+description: 'Trying to give back to the community - I write about tech, web development, data science, and leassons learned from the startup life'
 url: 'https://bastien-brd.github.io'
 baseurl: '/'
 google_analytics: 'UA-84007943-1'
