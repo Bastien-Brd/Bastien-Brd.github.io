@@ -8,8 +8,8 @@
 
     <div class="panel-main__inner panel-inverted">
     <div class="panel-main__content">
-        <a href="{{ site.baseurl }}" title="link to home of {{ site.title }}">
-          <img src="{{ "images/profile.jpg" | prepend: site.baseurl }}" class="user-image" alt="My Profile Photo">
+        <a href="#cover" title="link to home of {{ site.title }}" class="profile-photo">
+          <img src="{{ "images/profile.jpg" | prepend: site.baseurl }}" class="user-image" alt="{{ site.author.name }} Profile Photo">
           <h1 class="panel-cover__title panel-title">{{ site.title }}</h1>
         </a>
         <hr class="panel-cover__divider">
@@ -26,7 +26,7 @@
 
           <nav class="cover-navigation cover-navigation--primary">
             <ul class="navigation">
-              <li class="navigation__item"><a href="#about" title="About {{ site.title }}" class="about-button">About</a></li>
+              <li class="navigation__item"><a href="/about/" title="About {{ site.title }}" class="about-button">About</a></li>
             </ul>
           </nav>
 

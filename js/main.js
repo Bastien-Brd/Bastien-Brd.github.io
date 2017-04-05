@@ -2,7 +2,7 @@
 layout: null
 ---
 $(document).ready(function () {
-  $('a.about-button').click(function (e) {
+  $('a.profile-photo').click(function (e) {
     currentWidth = $('body').width()
     if (currentWidth < 960) {
       window.location = '/about/';
