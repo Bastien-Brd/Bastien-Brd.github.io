@@ -4,7 +4,6 @@ date:   2017-10-07
 categories: [raspberry-pi]
 tags: [raspberry-pi]
 ---
-# Easily set up a Raspberry Pi as backup server for your online storage accounts
 
 Data is more and more important, and grouping and backing up your personal data such as important documents and photos can be daunting and time consuming.
 
