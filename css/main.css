@@ -7,6 +7,11 @@ body {
 	color: #281b21;
 	background-color: #fafafa;}
 
+.content-wrapper {
+  width: 60%;
+  max-width: 1000px;
+}
+
 h1 {
 	font-size: 3em;
   line-height: 1.1em;
