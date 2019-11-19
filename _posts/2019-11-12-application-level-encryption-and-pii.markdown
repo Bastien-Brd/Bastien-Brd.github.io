@@ -5,17 +5,17 @@ categories: [development, security]
 tags: [development, security]
 ---
 
+![Data privacy - Illustration]({{ site.url }}/images/illustrations/undraw_unlock_24mb.png)
+
 More privacy regulations and laws such as GDPR in Europe (with worldwide implications) require businesses to be very careful and responsible in the way they process, store and communicate user data.
 
 Extra care must be taken when processing what is often called Personally Identifiable Data, also referred to as PII. In most web application, **PII means a user's email address, phone number, full name, etc.** Basically it is any piece of information that, taken individually, can identify a person. 
 
-As a side note, IP addresses are sometimes considered personally identifiable, although it is a debated topic. The website https://eugdprcompliant.com/personal-data/ mentions:
-
-> A much discussed topic is the *IP address*. The GDPR states that IP addresses should be considered personal data as it enters the scope of ‘*online identifiers*’.
+As a side note, IP addresses are sometimes considered personally identifiable, although it is a debated topic. The website https://eugdprcompliant.com/personal-data/ mentions: *"A much discussed topic is the IP address. The GDPR states that IP addresses should be considered personal data as it enters the scope of ‘online identifiers’."*
 
 As a web application developer, you should take every reasonable step to protect your user PII data from leakage. There are many steps to this, at various levels of your stack. **One of the ways to protect this data is to use application-level encryption.** 
 
-# Application Level Encryption and its limitations
+## Application Level Encryption and its limitations
 
 ### Premise
 
