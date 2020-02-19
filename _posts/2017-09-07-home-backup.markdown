@@ -88,8 +88,8 @@ crontab -e
 
 I recommend explicitely adding one line per folder you want, with appropriate schedule:
 ```
-0 0 * * * rsync copy drive_bastien:Google\ Photos /backup/Photos
-0 0 * * * rsync copy drive_bastien:Papers /backup/Papers
+0 0 * * * rclone copy drive_bastien:Google\ Photos /backup/Photos
+0 0 * * * rclone copy drive_bastien:Papers /backup/Papers
 ```
 
 ---
