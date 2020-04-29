@@ -6,7 +6,7 @@ tags: [general]
 ---
 In this article I describe how I got started experimenting with *Digital Sound Processing (DSP)* on Raspberry Pi.
 
-My first objective was to configure the Pi the play and record audio to and from my USB sound card. You can read how to set this up _in my previous article_.
+My first objective was to configure the Pi the play and record audio to and from my USB sound card. You can read how to set this up [in my previous article]({% post_url 2016-09-16-raspberrypi-usb-sound %}).
 
 The initial project I want to achieve is creating a guitar tuner; it would consist of:
 
